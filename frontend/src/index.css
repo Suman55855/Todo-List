@@ -9,27 +9,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('4716002.jpg');
+  background-size: 1160px 700px; 
+  background-repeat: no-repeat;
+  
 }
 
-.container{
+.container {
   max-width: 600px;
   margin: auto;
   padding: 0 1rem;
 }
 
-h1{
+h1 {
   margin-top: 1rem;
   text-align: center;
 }
 
-.top{
+.top {
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
 
-input{
+input {
   border: none;
   outline: none;
   width: 400px;
@@ -37,14 +41,14 @@ input{
   border-bottom: 1px solid #000;
 }
 
-.add{
+.add {
   background-color: #000;
   color: #fff;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
 }
 
-.todo{
+.todo {
   position: relative;
   margin-top: 1rem;
   background-color: #000;
@@ -53,7 +57,7 @@ input{
   border-radius: 5px;
 }
 
-.icons{
+.icons {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -62,7 +66,7 @@ input{
   gap: 0.5rem;
 }
 
-.icon{
+.icon {
   cursor: pointer;
   font-size: 20px;
 }
