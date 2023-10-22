@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('4716002.jpg');
-  background-size: 1160px 700px; 
+  background-size: 1280px 755px; 
   background-repeat: no-repeat;
 }
 
@@ -23,6 +23,7 @@ body {
 h1 {
   margin-top: 1rem;
   text-align: center;
+  font-size: 40px;
 }
 
 .top {
